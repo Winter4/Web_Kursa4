@@ -11,18 +11,19 @@
         
         <header>
           <div class = "header">                                <! Header >
-               <img src = "image/header.jpg" height = "100%">
+            <img src = "image/header.jpg" height = "100%">
+
             <div class = "headDocBar">                              <! Докбар в шапке>
-              <button class = "headDoc">Главная</button>
-              <button class = "headDoc">Пример страницы</button>
+                <div class = "headDoc"><a href = "">Главная</a></div>
+                <div class = "headDoc"><a href = "page/example.html">Пример страницы</a></div>
             </div>
-          </div>                                                <! Header >
+          </div>
         </header>
         
       <div class = "main">                                  <! main >
             <div class = "leftBar">                                 <! Левый бар >
               <div class = "sideBarDiv">                                <! Поиск >
-                <form> <input class = "searchLine" type = "search"> </form>
+                 <form><input class = "searchLine" type = "search"></form>
                 <button class = "searchButton">Поиск</button>
               </div>
 
@@ -44,7 +45,7 @@
                 </div>
 
                 <ul >
-                  <li><a href = "">Мистер WordPress</a> к записи <BR><a href = "">Привет, мир!</a></li>
+                  <li><a href = "">Мистер WordPress</a> к записи <BR><a href = "#">Привет, мир!</a></li>
                 </ul>
               </div>
 
@@ -90,7 +91,11 @@
             <div class = "midBar">                                    <! Центральный бар >
               <div>
                 <h1>Hello, world!</h1>
-                  <p><img src = "image/haticon.png">admin</p> 
+                  <div class = "author">
+                      <div class = "authorText">June, 14th, 2020 | </div>
+                      <div class = "authorIcon"> <img src = "image/haticon.png"></div>
+                      <div class = "authorText">Автор: <a href = "#">admin</a> | <a href = "#">править</a></div>
+                  </div>
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
               </div>
             </div>                                                     <! Центральный бар >

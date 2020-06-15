@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Prototype</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/example.css">
   </head>
   <body>
 
@@ -11,11 +11,11 @@
         
         <header>
           <div class = "header">                                <! Header >
-            <img src = "image/header.jpg" height = "100%">
+            <img src = "../image/header.jpg" height = "100%">
 
             <div class = "headDocBar">                              <! Докбар в шапке>
-              <button class = "headDoc">Главная</button>
-              <button class = "headDoc">Пример страницы</button>
+                <div class = "headDoc"><a href = "../index.html">Главная</a></div>
+                <div class = "headDoc"><a href = "">Пример страницы</a></div>
             </div>
           </div>
         </header>
@@ -23,13 +23,13 @@
       <div class = "main">                                  <! main >
             <div class = "leftBar">                                 <! Левый бар >
               <div class = "sideBarDiv">                                <! Поиск >
-                <form> <input class = "searchLine" type = "search"> </form>
+                 <form><input class = "searchLine" type = "search"></form>
                 <button class = "searchButton">Поиск</button>
               </div>
 
               <div class = "sideBarDiv">                                <! Свежие записи >
                 <div = class = "redTitle">
-                  <img src = "image/blockicon.png">
+                  <img src = "../image/blockicon.png">
                   Свежие записи
                 </div>
 
@@ -40,18 +40,18 @@
 
               <div class = "sideBarDiv">                                <! Свежие комментарии >
                 <div = class = "redTitle">
-                  <img src = "image/blockicon.png">
+                  <img src = "../image/blockicon.png">
                   Свежие ккомментарии
                 </div>
 
                 <ul >
-                  <li><a href = "">Мистер WordPress</a> к записи <BR><a href = "">Привет, мир!</a></li>
+                  <li><a href = "">Мистер WordPress</a> к записи <BR><a href = "#">Привет, мир!</a></li>
                 </ul>
               </div>
 
               <div class = "sideBarDiv">                                 <! Архивы >
                 <div = class = "redTitle">
-                  <img src = "image/blockicon.png">
+                  <img src = "../image/blockicon.png">
                   Свежие ккомментарии
                 </div>
 
@@ -62,7 +62,7 @@
 
               <div class = "sideBarDiv">                                    <! Архивы >
                 <div = class = "redTitle">
-                  <img src = "image/blockicon.png">
+                  <img src = "../image/blockicon.png">
                   Рубрики
                 </div>
 
@@ -73,7 +73,7 @@
 
               <div class = "sideBarDiv">                                     <! Мета >
                 <div = class = "redTitle">
-                  <img src = "image/blockicon.png">
+                  <img src = "../image/blockicon.png">
                   Рубрики
                 </div>
 
@@ -90,16 +90,21 @@
 
             <div class = "midBar">                                    <! Центральный бар >
               <div>
-                <h1>Hello, world!</h1>
-                  <p><img src = "image/haticon.png">admin</p> 
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                <h1>Example article</h1>
+                  <div class = "author">
+                      <div class = "authorText">June, 20th, 2020 | </div>
+                      <div class = "authorIcon"> <img src = "../image/usericon.png"></div>
+                      <div class = "authorText">Автор: <a href = "#">user</a> | <a href = "#">править</a></div>
+                  </div>
+                  
+                  "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
               </div>
             </div>                                                     <! Центральный бар >
 
             <div class = "rightBar">                                   <! Правый бар >
               <div class = "sideBarDiv">
                 <div class = "redTitle">
-                  <img src = "image/blockicon.png">
+                  <img src = "../image/blockicon.png">
                   Рубрики
                 </div>
 
@@ -113,7 +118,7 @@
         <footer>
             <div class = "footer">
                 <p class = "rssText">
-                    <img class = "rssIcon" src = "image/rss.png">
+                    <img class = "rssIcon" src = "../image/rss.png">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     <BR> Все права защищены.
                     Karpovich V. IST-19a
